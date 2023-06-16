@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+}
+
+canvas {
+    border: 1.5rem;
+    border-radius: 20px;
+    margin: 2rem;
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+canvas {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+div {
+    display: block;
+}
+
+.refresh {
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1rem;
+}
